@@ -80,7 +80,7 @@ section.head{
         justify-content: center;
         align-items: center;
         height: 612px;
-        margin-top: 60px;
+        margin: 60px 0 60px 0;
     }
     .letterAndtxt{
         width: 360px;
@@ -101,6 +101,28 @@ section.head{
         justify-content: space-between;
         
     }
+    .aboutDiv{
+        position: relative;
+    }
+    .thirdSecImg{
+        position: absolute;
+        z-index: -1;
+        width: 550px;
+        left: calc(50% - 275px);
+        top: -300px;
+    }
+    .about{
+        font-size: 9rem;
+        letter-spacing: 40px;
+        text-align: center;
+        margin-top: 450px;
+    }
+    .aboutTxt{
+        margin: 330px auto auto auto;
+        text-align: center;
+        width: 700px;
+    }
+    
 }
 @media screen and (max-width: 1280px) {
     .headImage{
